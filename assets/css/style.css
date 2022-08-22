@@ -1,3 +1,22 @@
 :root {
-    lightbg= background-color: rgb(179, 245, 245);
+    --void: rgb(2, 1, 17);
+    --boxbleen: rgb(0, 255, 255);
+    --water: rgb(124, 223, 223);
+    --mooncheese: beige;
+}
+
+* {
+    background-color: var(--void);
+}
+
+header {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    background-color: var(--boxbleen);
+}
+
+
+footer {
+    
 }
