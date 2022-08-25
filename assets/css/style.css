@@ -1,22 +1,72 @@
 :root {
-    --void: rgb(2, 1, 17);
-    --boxbleen: rgb(0, 255, 255);
-    --water: rgb(124, 223, 223);
-    --mooncheese: beige;
+    --void: rgb(54, 66, 68);
+    --sage: rgb(178, 250, 234);
+    --mooncheese: rgb(241, 241, 210);
+    --bleen: rgb(12, 121, 118);
 }
 
 * {
-    background-color: var(--void);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+header, h1 {
+    background-color: var(--sage);
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200%;
-    background-color: var(--boxbleen);
+    margin-top: 30px;
+    font-size: 150%;
+    color: var(--void)
+}
+
+header nav {
+        margin-right: 20px;
+        margin-top: -30px;
+        padding: -10px;
+        float: right;
+        font-size: 20px;
+        color: var(--mooncheese)
+    }
+
+header nav ul li {
+        display: inline-block;
+        margin-left: 25px;
+        font-size: 25px;
+    }
+
+    header a {
+        color: var(--void)
+    }
+
+body{
+    background-color: var(--void);
+    color: var(--mooncheese);
+}
+
+.segment {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.contact a {
+    color: var(--bleen)
 }
 
 
 footer {
+    color: var(--mooncheese);
     
 }
+
+@media
