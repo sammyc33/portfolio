@@ -24,7 +24,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Application Summary
 ---
-
+The webpage begins with a profile picture and my name. Click on any of the three navigation menus to the right to instantly navigate to any section of the webpage. In the About section you'll find placeholder Lorem Ipsum. In the My Work section, you will find the primary project, which is my most recent project, followed by smaller images beneath it. Click on any of the images in the My Work section to navigate to the corresponding project's web page. Lastly, at the bottom of the page is the Contact Me section. You will find hyperlinks to my GitHub profile, LinkedIn profile, and a link to email me. 
 
 ## Mock-up
 ---
