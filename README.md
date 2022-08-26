@@ -24,7 +24,7 @@ AS AN employer
 
 ## Application Summary
 ---
-The webpage begins with a profile picture and my name. Click on any of the three navigation menus to the right to instantly navigate to any section of the webpage. In the About section you'll find placeholder Lorem Ipsum. In the My Work section, you will find the primary project, which is my most recent project, followed by smaller images beneath it. Click on any of the images in the My Work section to navigate to the corresponding project's web page. Lastly, at the bottom of the page is the Contact Me section. You will find hyperlinks to my GitHub profile, LinkedIn profile, and a link to email me. 
+The webpage begins with a profile picture and my name. Click on any of the three navigation menus to the right to instantly navigate to any section of the webpage. In the About section you'll find placeholder Lorem Ipsum. In the My Work section, you will find the primary project, which is my most recent project, followed by smaller images beneath it. Click on any of the images in the My Work section to navigate to the corresponding project's web page. Lastly, at the bottom of the page is the Contact Me section. You will find hyperlinks to my GitHub profile, LinkedIn profile, and a link to email me. And, if you are using a smaller screen, no problem! This page is responsive. Right hand navication will move closer to the h1 and photo as the screen/viewport size decreases. Text and the images for each project will follow suit. 
 
 ## Mock-up
 ---
