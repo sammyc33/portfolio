@@ -141,10 +141,15 @@ footer {
 }
 
 /* Moves nav to the left as the window shrinks
-causes cards (projects) to narrow with the screen, and condenses the contact section as screen narrows */
+causes cards (projects) to narrow with the screen, and condenses the contact section as screen narrows, adjusts font size to fit smaller screens*/
 @media screen and (max-width: 992px) {
+    h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
     header nav {
         margin-left: 500px;
+        font-size: 20px;
     }
     .card {
         width: 50%;
@@ -155,9 +160,13 @@ causes cards (projects) to narrow with the screen, and condenses the contact sec
 }
 
 @media screen and (max-width: 760px) {
+    h1 {
+        font-size: 25px;
+    }
     header nav {
         margin-top: 10px;
         margin-left: 20px;
+        font-size: 20px;
     }
     .card {
         width: 50%;
