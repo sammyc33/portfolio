@@ -5,12 +5,13 @@
     --bleen: rgb(3, 170, 170);
 }
 
+/* Set font family to Arial, Helvetica, sans-serif*/
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* */
+/* Puts header in a flexbox and assigns it the color --sage */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -19,38 +20,34 @@ header {
 
 }
 
+/* H1 has a 50px font size and is the color ==void */
 h1 {
     font-size: 50px;
     color: var(--void)
 }
 
-/* */
-.hero {
-    border-style: dashed;
-}
-
-/* */
+/* Wraps the top right site navigation, assigns a 40px font*/
 header nav {
     flex-wrap: wrap;
-    margin-left: 1000px;
+    margin-left: 900px;
     padding: 15px;
     font-size: 40px;
     width: 900px;
     margin-top: -100px;
 }
 
-/* */
+/* Assigns the anchors in the header section the color --void */
 header a {
     color: var(--void)
 }
 
-/* */
+/* Assigs the background color --void and the text color --mooncheese to the body of the webpage */
 body {
     background-color: var(--void);
     color: var(--mooncheese);
 }
 
-/* */
+/* Sets the three sections in flexboxes with 30px font*/
 .segment {
     display: flex;
     flex-wrap: nowrap;
@@ -59,12 +56,13 @@ body {
     font-size: 30px;
 }
 
+/* Reassigns the H3 sections a 50px font*/
 h3 {
     margin-right: 50px;
 
 }
 
-/* */
+/* Sets the content for each of the three sections (about, my work, and contact) into flex box with 20px font*/
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +72,7 @@ h3 {
     font-size: 20px;
 }
 
+/* Settings for the first (primary) project to display it larger than the others */
 .primarycard {
     flex: 1, 0, 0;
     flex-wrap: nowrap;
@@ -84,15 +83,17 @@ h3 {
     width: 900px;
 }
 
+/* Centers text in the primary card */
 .primarycard p {
     text-align: center;
 }
+
 
 .primarycard img {
     width: 100%;
 }
 
-/* */
+/* Settings for the remaining cards, which are located below the primary card and are much smaller -25% of the space, and centered in their boxes*/
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +111,6 @@ h3 {
 
 .card img {
     width: 100%;
-    max-height: 250px;
     float: center;
 }
 
@@ -118,7 +118,7 @@ h3 {
     color: var(--void);
 }
 
-/* */
+/* Establishes flexbox settings for the Contact Me section */
 .contact a {
     color: var(--bleen);
     flex: 1, 0, 0;
@@ -131,7 +131,7 @@ h3 {
 }
 
 
-/* */
+/* Assigns footer color of --mooncheese and light padding, also centers it */
 footer {
     display: flex;
     justify-content: center;
@@ -140,19 +140,25 @@ footer {
 
 }
 
-/* */
+/* Moves nav to the left as the window shrinks
+causes cards (projects) to narrow with the screen, and condenses the contact section as screen narrows */
 @media screen and (max-width: 992px) {
+    header nav {
+        margin-left: 500px;
+    }
     .card {
         width: 50%;
     }
-
     .contact a {
         width: 50%;
     }
 }
 
-/* */
 @media screen and (max-width: 760px) {
+    header nav {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
     .card {
         width: 50%;
     }
