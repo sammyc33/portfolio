@@ -32,4 +32,8 @@ The webpage begins with a profile picture and my name. Click on any of the three
 
 ## Deployed Page
 ---
-https://sammyc33.github.io/portfolio
+https://sammyc33.github.io/portfolio/
+
+## License
+---
+Please see license information in repo.
