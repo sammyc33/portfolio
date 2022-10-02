@@ -1,5 +1,5 @@
 :root {
-    --void: rgb(54, 66, 68);
+    --void: rgb(37, 52, 54);
     --sage: rgb(178, 250, 234);
     --mooncheese: rgb(241, 241, 210);
     --bleen: rgb(3, 170, 170);
@@ -45,6 +45,7 @@ header a {
 body {
     background-color: var(--void);
     color: var(--mooncheese);
+
 }
 
 /* Sets the three sections in flexboxes with 30px font*/
@@ -109,9 +110,14 @@ h3 {
     text-align: center;
 }
 
+.subtext {
+    font-size: 50%;
+}
+
 .card img {
     width: 100%;
     float: center;
+    align-content: center;
 }
 
 .blank {
@@ -147,13 +153,16 @@ causes cards (projects) to narrow with the screen, and condenses the contact sec
         font-size: 30px;
         padding: 10px;
     }
+
     header nav {
         margin-left: 500px;
         font-size: 20px;
     }
+
     .card {
         width: 50%;
     }
+
     .contact a {
         width: 50%;
     }
@@ -163,11 +172,13 @@ causes cards (projects) to narrow with the screen, and condenses the contact sec
     h1 {
         font-size: 25px;
     }
+
     header nav {
         margin-top: 10px;
         margin-left: 20px;
         font-size: 20px;
     }
+
     .card {
         width: 50%;
     }
